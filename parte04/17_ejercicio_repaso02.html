@@ -18,6 +18,17 @@
         * 3. Una vez sepas que posición ocupa dicho carácter, puedes recuperar una subcadena que devuelva el primer número
         * y otra subcadena que contenga el segundo número
         */
+
+       let suma;
+        do{
+        suma = prompt("Introduzca una suma (e.g. 23+56):");
+        }while(suma.indexOf("+") == -1);
+
+       let idx_plus = suma.indexOf("+");
+       let num1 = suma.substring(0,idx_plus);
+       let num2 = suma.substring(idx_plus+1);
+       console.log("La suma se compone del primer número " + num1 + " y del segundo número " + num2 + ".");
+
     </script>
 </body>
 
