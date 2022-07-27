@@ -24,6 +24,29 @@
         * 9	2
         * 10 1
         */
+       let lista = [0,1,2,3,4,5,6,7,8,9,10];
+       let contador = [0,0,0,0,0,0,0,0,0,0,0];
+       let texto = ""
+       for (let i = 0; i < 10; i++){
+        num = parseInt(prompt("Introduzca valores entre 0 y 10: "));
+        if (num > 10){
+            console.log("Número incorrecto tiene que ser menor que 10.");
+        }
+        else if (num == -1){
+            for (let j = 0; j < lista.length; j++){
+                if ( j == 0){
+                    texto += lista[j] + "\n";
+                }
+                else{
+                    texto += lista[j] + " " + contador[j] +"\n";
+                }
+            }
+            console.log(texto);
+        }
+        else if (num >= 0 & num <= 10){
+            contador[num]+=1;
+        }
+       }
     </script>
 </body>
 

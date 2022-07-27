@@ -15,8 +15,14 @@
         * Pista:
         * Puedes utilizar un bucle para ir pedir una palabra al usuario e introducirlo en cada una de las posiciones del array.
         */
-
-
+        let lista = [];
+        let posicion = ["primer", "segundo", "tercer"];
+        for (let i = 0; i < 3; i++){
+            lista[i] = prompt("Introduzca el " + posicion[i] + " texto de tres.");
+        }
+        console.log(lista[1]);
+        console.log(lista[2]);
+        console.log(lista[0]);
     </script>
 </body>
 
