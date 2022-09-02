@@ -1,0 +1,244 @@
+/**
+------>>Estilo del encabezado<--------
+*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Constantia";
+}
+
+.line_complete {
+    display: flex;
+    border-top: 1px solid rgb(199, 199, 199);
+    height: 2px;
+    padding: 0;
+    margin: 20px auto 0 auto;
+  }
+
+.line_90 {
+    display: flex;
+    border-top: 1px solid rgb(199, 199, 199);
+    height: 2px;
+    padding: 0;
+    max-width: 90%;
+    margin: 20px auto 0 auto;
+  }
+
+#header_content {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    align-items: center;
+    font-family: "Constantia";
+    padding: 30px 20px 20px 20px;
+}
+
+#header_div {
+    display: flex;
+    padding: 0vh 2vh 1vh 0h;
+    flex-direction: column;
+
+}
+
+#header_title {
+    display: flex;
+    padding: 0vh;
+    margin: 0vh;
+    color: rgb(80, 80, 80);
+}
+
+#header_subtitle {
+    display: flex;
+    padding: 0vh;
+    margin: 0vh;
+    font-size: 12px;
+    color: rgb(80, 80, 80);
+}
+
+#header_list {
+    list-style-type: none;
+    display: flex;
+    background-color:rgb(230, 95, 95);
+    border-radius: 4px;
+}
+
+#header_li {
+    display: flex;
+    margin: 0 1vh 0 1vh;
+    padding: 2vh 2vh 2vh 2vh;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+/**
+------>>Estilo de la intro<<--------
+*/
+#intro_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Constantia";
+    font-style: italic;
+    font-weight: bold;
+}
+  #intro_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #intro_par{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:rgb(80, 80, 80);
+    font-size: 20px;
+    padding:20px;
+    text-align: center;
+  }
+
+  /**
+------>>Estilo de SERVICE Y LATEST WORKS<<--------
+*/
+
+  *{
+    padding: 0;
+    margin: 0;
+}
+#intros{
+    text-transform: uppercase;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    justify-content: center;
+    margin: 3vh 1vh 3vh 1vh;
+    padding: 0vh 6vh 0 6vh;
+    background-color:rgb(230, 95, 95);
+
+}
+#content1{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+
+}
+.icon_title {
+    display: flex;
+    flex-direction: row;
+    padding: 1vh;
+}
+.icon {
+    padding: 0vh 2vh 0vh 0vh;
+}
+.column1{
+    padding: 4vh;
+}
+.column2{
+    padding: 1vh;
+}
+.title1{
+    padding: 0vh;
+    color:rgb(80, 80, 80);
+}
+
+.paragraph1 {
+    text-align: start;
+    padding: 0vh 0vh 1vh 0vh;
+    color:rgb(150, 148, 148);
+    font-size: 12px;
+}
+
+.paragraph2 {
+    text-align: start;
+    padding: 0vh 0vh 1vh 0vh;
+    color:rgb(150, 148, 148);
+    width: 180px;
+    font-size: 12px;
+}
+
+.read_more{
+    color:rgb(230, 95, 95);
+}
+
+  /**
+------>>Estilo de FOOTER<<--------
+*/
+
+#content2{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    padding-top: 30px;
+    border-bottom: 1.5px rgb(179, 176, 176) solid ;
+}
+
+#content3{
+    background-color: rgb(230, 230, 230);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px white solid ;
+}
+
+
+.footer_title{
+    display: flex;
+    color: grey;
+    font-size: 15px;
+    padding: 5px 0px 10px 0px;
+}
+
+.footer_column {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.footer_column2 {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 400px;
+    padding: 0px 100px 0px 0px;
+}
+
+.footer_column_description{
+    display:flex;
+    padding: 5px;
+    flex-direction: column;
+}
+
+.footer_box{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer_box2{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_description_title{
+    display: flex;
+    color: rgb(230, 95, 95);
+    font-size: 15px;
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+}
+
+.footer_description{
+    display: flex;
+    color: grey;
+    font-size: 12px;
+    padding: 0px 0px 5px 0px;
+}
+
+.footer_icon {
+    margin: 0vh 1vh 1vh 1vh;
+    padding: 0.5vh 0.5vh 0.5vh 0.5vh;
+    border: grey 0.5px solid;
+}
+
+.footer_description_office_hours{
+    display: flex;
+    color: grey;
+    font-size: 12px;
+    font-weight: bold;
+}
+
