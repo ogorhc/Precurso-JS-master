@@ -271,7 +271,5 @@ if (masc_or_fem == "M"){
 else{
     masc_or_fem = "femenino"
 }
-
-console.log(letraNombre[nombre_superheroe.substring(0,1)][masc_or_fem])
-console.log(letraApellido[apellido_superheroe.substring(apellido_superheroe.length-1)][masc_or_fem])
-console.log(fechaNacimiento[fecha_nacimiento.substring(fecha_nacimiento.length-1)][masc_or_fem])
+console.log(nombre_superheroe + " " + apellido_superheroe + " " + "con fecha de nacimiento " + fecha_nacimiento + " es: ")
+console.log(letraNombre[nombre_superheroe.substring(0,1).toLowerCase()][masc_or_fem] + " " + letraApellido[apellido_superheroe.substring(apellido_superheroe.length-1).toLowerCase()][masc_or_fem] + " " + fechaNacimiento[fecha_nacimiento.substring(fecha_nacimiento.length-1)][masc_or_fem])
